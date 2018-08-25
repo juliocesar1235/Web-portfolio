@@ -3,6 +3,7 @@
   <head>
    <title>Julio Portfolio</title>
    <meta charset="utf-8">
+   <link rel="stylesheet" href="index.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -11,11 +12,12 @@
   </head>
   <body>
     <div class="container">
-      <div class="page-header jumbotron">
-        <h1>Julio Gutiérrez</h1>
-        <p>The next guy to develop your future technologies convining his passions
-          and hobbies.</p>
-      </div>
+        <div class="page-header jumbotron">
+          <canvas id="canvas-title"></canvas>
+          <h1>Julio Gutiérrez</h1>
+          <p>The next guy to develop your future technologies convining his passions
+            and hobbies.</p>
+        </div>
     </div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
       <a class="navbar-brand" href="#">Logo</a>
@@ -31,11 +33,49 @@
         </li>
       </ul>
     </nav>
-    <div class="container-fluid"><br>
-  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-</div>
+    <div class="container"><br>
+      <h1 class="display-4">Me</h1>
+      <h3>Im a software developer that enjoys using and creating technologies,
+      doing sports, reading Medium and watching a lot of youtube</h3>
+      <div class="container">
+        <img src="assets/38379-200.png" class="rounded" align="left"></img>
+        <img src="assets/iphone icon.png" class="rounded" align="middle"></img>
+        <img src="assets/yu-icon.png" class="rounded" align="right"></img>
+      </div>
+    </div>
+    <div class="container"><br>
+      <h1 class="display-4">Projects</h1>
+      <div class="container row">
+        <div class="list-group col-4">
+          <a class="list-group-item list-group-item-action flex-column align-items-start active">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Voiture</h5>
+              <small>Ruby on rails</small>
+            </div>
+            <p class="mb-1">Web application built to make a refresh
+              experience to buy and sell cars online</small>
+            </a>
+            <a class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Assambly Emulator</h5>
+                <small class="text-muted">Angular</small>
+                <p class="mb-1">Web application that shows a way of learning the fundamentals
+                  for Assambly language</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Gmorning</h5>
+                  <small class="text-muted">Swift</small>
+                </div>
+                <p class="mb-1">IOS app that helps you to organize your mornings</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h1 class="display-4">Contact</h1>
+
+        </div>
   </body>
 </html>
